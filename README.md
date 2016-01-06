@@ -14,7 +14,7 @@ The concepts this project will cover are
 3. Injecting a service into a controller
 
 
-##Step 1: Clone and Dissect the Repo
+##Step 1: DONE Clone and Dissect the Repo
 * Fork and clone this repository.
 * This is the first project where you'll have to work with part of the code that's already in place.
 * You should only touch mainCtrl.js and parseService.js, everything else is already set up for you
@@ -22,7 +22,7 @@ The concepts this project will cover are
 * Go and check out the index.html page. You'll notice that in the message-container class there's an ng-repat looping over messages. This means that somehow, you need to have 'messages' on the scope which should also have a 'text' property.
 
 
-##Step 2: Build your parseService
+##Step 2: DONE Build your parseService
 * In Angular we use 'services' to outsource some of our heavy lifting. That's exactly what we're going to do with this app. 
 * Open up parseService.js and read the instructions. The bigger picture is that this service is going to have two methods, getData and postData. getData will get the chats from our parse backend, and postData will be able to post new messages to the parse backend.
 

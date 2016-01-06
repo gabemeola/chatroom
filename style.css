@@ -1,19 +1,20 @@
 html {
-  height: 100%;
-  width: 100%;
+  height: 100vh;
+  width: 100vw;
 }
 
 body {
   height: 95%;
   width: 100%;
-  font-family: sans-serif;
-  background-image: url('http://addyosmani.com/blog/wp-content/uploads/2013/04/unicorn.jpg');
+  font-family: 'Montserrat', sans-serif;
+  background-color: #3ACECD;
+  transition: all .3s ease-in-out;
 }
 
 .main-container {
   width: 75%;
   margin: 10px auto;
-  background: rgba(255, 255, 255, 0.86);
+/*  background: rgba(255, 255, 255, 0.86);*/
   padding: 5px;
   border-radius: 10px;
 }
@@ -22,13 +23,97 @@ body {
   text-align: center;
 }
 
-.text-box {
-  margin: 0px auto;
-  width: 40%;
+.header {
+    background-color: #2DB6B5;
+    width: 80%;
+    margin: -20vh 0 0 0;
+    padding-top: 20vh;
+    box-shadow: 0 3px 10px 0px #1F7F7F;
+    color: white;
+    
+}
+
+.textIcon{
+    width: 10%;
+    height: 10vh;
+    display: inline-block;
+    color: white;
+    font-size: 65px;
+    position: relative;
+    left: -70px;
+    bottom: -70px;
+}
+
+input{
+    width:80%;
+    height: 10vh;
+    font-size: 60px;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    border: none;
+    box-shadow: 0 0;
+    margin-bottom: 10vh;
+    background-color: rgba(45,182,181,0.00);
+    color: white;
+    padding-right: 2vw;
+    border-bottom: 2px solid #1F7F7F;
+    transition: all .3s ease-in-out;
+}
+
+input:focus {
+    outline: none;
+    box-shadow: inset 0 0 5px 1px #1F7F7F;
+    border-bottom: none;
 }
 
 p{
-  text-align: center;
-  margin: 3px 0;
-  font-size: 17px;
+    text-align: center;
+    margin: 3px 0;
+    font-size: 17px;
+    border-bottom: 3px solid #1F7F7F;
+    margin-bottom: 20px;
+    padding: 1% 2% 1% 2%;
+    color: white;
+    background-color: #2DB6B5;
+    width: 80%;
+    min-height: 10vh;
+    font-size: 30px;
+    transition: all .2s ease-in-out;
+    position: relative;
 }
+
+p:hover{
+    margin-top: -10px;
+    margin-bottom: 25px;
+    box-shadow: 0 3px 10px 1px #1F7F7F;
+    
+}
+
+.messageDate{
+    color: gray;
+    font-size: 15px;
+    background-color: white;
+    padding: 8px 8px 8px 8px;
+    position:relative;
+    top: 0;
+    right: 60px;;
+    display: block;
+    width: 30%;
+    box-shadow: 0 3px 10px 0px #1F7F7F;
+    border-radius: 5px;
+}
+
+.yellow {
+    background-color: #FF9900;
+    height: 100%;
+    width: 10%;
+    display: inline;
+    position: absolute;
+    left: 0;
+    top: -0%;
+    overflow: hidden;
+    transition: all .5s ease-in-out;
+    color: white;
+}
+
